@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.5.2
-      - uses: actions/upload-artifact@vv3.1.2
+      - uses: actions/upload-artifact@v3.1.2
         with:
           name: hello
           path: .
